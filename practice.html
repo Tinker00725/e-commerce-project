@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width: 800px;
+            height: 400px;
+            background-color: antiquewhite;
+            position: relative;
+        }
+        .b{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            position: absolute;
+            left: 50%;
+            margin-left: -50px;
+        }
+    </style>
+
+</head>
+<body>
+
+<script>
+    let arr= [{num:1},{num:1},{num:1}]
+    let result = arr.every(item=>item.num == 1)
+    console.log(result)//true
+
+    // let arr= [{num:1},{num:1},{num:2}]
+    // let result = arr.every(item=>item.num == 1)
+    // console.log(result)    
+    // false
+</script>
+</body>
+</html>
