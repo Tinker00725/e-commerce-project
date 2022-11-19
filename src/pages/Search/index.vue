@@ -294,7 +294,7 @@ export default {
       if (arr[0] !== number) {
         // 切换按钮箭头方向初始化
         this.count = 0;
-        arr.splice(1, 1, "desc");
+        arr.splice(1, 1, "desc");//1是上的时候，切换到2重置箭头为下
       } else {
         if (this.count) {
           arr.splice(1, 1, "desc");
